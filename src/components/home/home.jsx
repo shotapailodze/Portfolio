@@ -6,6 +6,9 @@ import Javascript from '../../images/skillimgs/js.png'
 import Scss from '../../images/skillimgs/scss.png'
 import ReactImg from '../../images/skillimgs/react.png'
 import github from '../../images/skillimgs/github.png'
+import linkedin from '../../images/MiscImages/linkedin.png'
+import facebook from '../../images/MiscImages/fb.png'
+import instagram from '../../images/MiscImages/ig.png'
 
 export const Home = () => {
     return (
@@ -18,6 +21,9 @@ export const Home = () => {
                             Hi, I'm Shota Pailodze. A passionate Front-End Developer based in Tbilisi, Georgia 📍
                         </p>
                         <a href='https://github.com/shotapailodze' target='_blank'><img src={github}></img></a>
+                        <a href='https://www.linkedin.com/in/pailodze/' target='_blank'><img src={linkedin}></img></a>
+                        <a href='https://www.facebook.com/pailodzesh/' target='_blank'><img src={facebook}></img></a>
+                        <a href='https://www.instagram.com/pailodzee/' target='_blank'><img src={instagram}></img></a>
                     </div>
 
                     <div className='skills'>

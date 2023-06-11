@@ -20,17 +20,19 @@
         .descriptions-text {
 
             h1 {
-                font-size: 40px;
+                font-size: 50px;
+                color: #212A3E;
             }
 
             p {
                 padding: 20px 0;
-                font-size: 20px;
+                font-size: 25px;
+                color: #394867;
             }
             
             img {
                 width: 30px;
-
+                margin-right: 10px;
                 &:hover{
                     transform: scale(1.1);
                 }
