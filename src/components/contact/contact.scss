@@ -1,0 +1,33 @@
+.contact {
+    height: 30vh;
+    background-color: #394867;
+    font-family: 'Nunito', sans-serif;
+    padding: 30px 0;
+    text-align: center;
+    h2 {
+        color: #F1F6F9;
+    }
+}
+
+.contact-form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    img {
+        width: 50px;
+    }
+    h3 {
+        color: white;
+    }
+    .mailimg {
+        filter: invert(100%);
+    }
+    p{
+        color: white;
+    }
+    a {
+        text-decoration: none;
+    }
+}

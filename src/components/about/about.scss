@@ -1,0 +1,31 @@
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    .image-div {
+        margin-right: 10px;
+        img {
+            
+            width: 600px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    }
+    .text-div {
+        width: 500px;
+        margin-left: 20px;
+        h3 {
+            color: #212A3E;
+        }
+    }
+}
+
+$breakpoint-tablet: 960px;
+@media (max-width: $breakpoint-tablet) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,85 @@
+
+.projects {
+    height: 200vh;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+    h2 {
+        color: #212A3E;
+    }
+}
+
+.grid-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px 20px;
+}
+
+.grid-item {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #F1F6F9;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+
+    .imagePlaceholder{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 498px;
+        height: 350px;
+    }
+    h2 {
+        padding: 20px 0;
+        color: #212A3E;
+    }
+    img {
+        object-fit: contain;
+        width: 100%;
+        max-height: 75%;
+        
+    }
+    .logo {
+        width: 40px;
+        margin-right: 10px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        color: #394867;
+    }
+
+}
+
+
+$breakpoint-tablet: 1110px;
+$breakpoint-big: 1500px;
+
+@media (max-width: $breakpoint-tablet) {
+    .projects {
+        height: 530vh;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px 50px;
+    }
+    .grid-item {
+        margin: auto;
+    }
+}
+
+@media (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-big}) {
+    .projects {
+        height: 300vh;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px 50px;
+    }
+}
